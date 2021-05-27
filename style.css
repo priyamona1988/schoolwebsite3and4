@@ -1,0 +1,62 @@
+body{
+	text-align: center;
+	background-color: aquamarine
+}
+
+.row::after{
+	content: "";
+	clear:both;
+	display: table;
+}
+
+
+.travel_mainDiv{
+	float: left;
+	width:33.33%;
+	padding:5px;
+	border: 1px solid #c7c7c7;
+	
+}
+
+
+
+.travel_mainDiv img{
+	
+	width: 500px;
+	height: 300px;
+	
+	
+}
+
+.travel_ mainDiv hr{
+	width: 100px;
+}
+.travel_mainDiv h5, .travel_mainDiv p{
+	margin-left: 20px;
+}
+
+#sportID{
+	padding-bottom: 10px;
+}
+
+.sport_head
+{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.sport_head i
+{
+float: right;
+    
+}
+
+.sport_text span
+{
+color: #ff7700;
+}
+
